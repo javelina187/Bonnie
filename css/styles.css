@@ -77,7 +77,8 @@ body {
 #phone {
   margin-top: 5px;
 }
-#phone a { /* Phone number */  padding-bottom: 0;
+#phone a { /* Phone number */  
+    padding-bottom: 0;
 }
 
 navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -171,10 +172,10 @@ section h2{
 }
 section h3{
 	margin: 0;
-	font-size: 1.2em;
-/*	text-align: center;*/
+	font-size: 1em;
 	font-style: italic;
 	padding-bottom: 10px;
+	text-decoration:underline;
 }
 
 section ol, ul li{
@@ -212,9 +213,9 @@ section ol, ul li{
   color: #fffdf1;
   opacity: .8;
 }
-/* END HOME PAGE */
 
-/* MENU CATEGORIES PAGE */
+
+/* MENU */
 .category-tile { 
   position: relative;
   border: 2px solid #3F0C1F;
@@ -242,9 +243,9 @@ section ol, ul li{
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
-/* END MENU CATEGORIES PAGE */
 
-/* SINGLE CATEGORY PAGE */
+
+/* SINGLE CATEGORY PAGE
 .menu-item-tile {
   margin-bottom: 25px;
 }
@@ -288,7 +289,7 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
-/* END SINGLE CATEGORY PAGE */
+ */
 
 
 /********** Large devices only **********/
